@@ -130,15 +130,58 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="fragment.txt" />
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="vertex.cpp" />
+    <ClCompile Include="sourceCode\camera.cpp" />
+    <ClCompile Include="sourceCode\ebo.cpp" />
+    <ClCompile Include="sourceCode\glad.c" />
+    <ClCompile Include="sourceCode\shaderClass.cpp" />
+    <ClCompile Include="sourceCode\stb.cpp" />
+    <ClCompile Include="sourceCode\texture.cpp" />
+    <ClCompile Include="sourceCode\vao.cpp" />
+    <ClCompile Include="sourceCode\vbo.cpp" />
+    <ClCompile Include="sourceCode\vertex.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="vertex.txt" />
+    <ClInclude Include="HeaderFiles\camera.h" />
+    <ClInclude Include="HeaderFiles\EBO.h" />
+    <ClInclude Include="HeaderFiles\shaderClass.h" />
+    <ClInclude Include="HeaderFiles\TextureClass.h" />
+    <ClInclude Include="HeaderFiles\VAO.h" />
+    <ClInclude Include="HeaderFiles\VBO.h" />
+    <ClInclude Include="sourceCode\config.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h" />
+    <None Include="shaders\default.frag" />
+    <None Include="shaders\default.vert" />
+    <None Include="x64\Debug\openglproject.exe.recipe" />
+    <None Include="x64\Debug\openglproject.ilk" />
+    <None Include="x64\Debug\openglproject.tlog\CL.command.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\Cl.items.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\CL.read.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\CL.write.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.command.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.read.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.secondary.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.write.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\openglproject.lastbuildstate" />
+    <None Include="x64\Debug\vc145.idb" />
+    <None Include="x64\Debug\vc145.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="x64\Debug\ebo.obj" />
+    <Object Include="x64\Debug\glad.obj" />
+    <Object Include="x64\Debug\shaderClass.obj" />
+    <Object Include="x64\Debug\vao.obj" />
+    <Object Include="x64\Debug\vbo.obj" />
+    <Object Include="x64\Debug\vertex.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HeaderFiles\stb.h" />
+    <Text Include="x64\Debug\openglproject.Build.CppClean.log" />
+    <Text Include="x64\Debug\openglproject.log" />
+    <Text Include="x64\Debug\openglproject.vcxproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pop_catt.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

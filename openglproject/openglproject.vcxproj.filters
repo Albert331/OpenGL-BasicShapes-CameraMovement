@@ -18,24 +18,91 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vertex.cpp">
+    <ClCompile Include="sourceCode\vertex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fragment.txt">
-      <Filter>shaders</Filter>
+    <ClCompile Include="sourceCode\glad.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="sourceCode\shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\vbo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\ebo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\vao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sourceCode\camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="vertex.txt">
-      <Filter>shaders</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="config.h">
+    <ClInclude Include="sourceCode\config.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="HeaderFiles\shaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\TextureClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\default.vert" />
+    <None Include="shaders\default.frag" />
+    <None Include="x64\Debug\openglproject.exe.recipe" />
+    <None Include="x64\Debug\openglproject.ilk" />
+    <None Include="x64\Debug\vc145.idb" />
+    <None Include="x64\Debug\vc145.pdb" />
+    <None Include="x64\Debug\openglproject.tlog\CL.command.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\Cl.items.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\CL.read.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\CL.write.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.command.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.read.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.secondary.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\link.write.1.tlog" />
+    <None Include="x64\Debug\openglproject.tlog\openglproject.lastbuildstate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="x64\Debug\vertex.obj" />
+    <Object Include="x64\Debug\ebo.obj" />
+    <Object Include="x64\Debug\glad.obj" />
+    <Object Include="x64\Debug\shaderClass.obj" />
+    <Object Include="x64\Debug\vao.obj" />
+    <Object Include="x64\Debug\vbo.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="x64\Debug\openglproject.Build.CppClean.log" />
+    <Text Include="x64\Debug\openglproject.log" />
+    <Text Include="x64\Debug\openglproject.vcxproj.FileListAbsolute.txt" />
+    <Text Include="HeaderFiles\stb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pop_catt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
