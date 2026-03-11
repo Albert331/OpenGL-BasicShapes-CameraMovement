@@ -1,6 +1,4 @@
-Here’s a **clean README.md** you can use for your **OpenGL Basic Shape Rendering with Camera Movement** project. It’s written in a way that looks **good on GitHub and on a resume**. 🚀
 
----
 
 # OpenGL Basic Shape Rendering with Camera Movement
 
