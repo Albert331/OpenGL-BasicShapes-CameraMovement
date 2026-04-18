@@ -52,31 +52,7 @@ The goal of this project is to understand the fundamentals of the modern OpenGL 
 
 ---
 
-## Project Structure
 
-```
-OpenGL-Basic-Rendering
-│
-├── src
-│   └── main.cpp
-│
-├── shaders
-│   ├── vertex.glsl
-│   └── fragment.glsl
-│
-├── include
-│   ├── shaderClass.h
-│   ├── VAO.h
-│   ├── VBO.h
-│   └── texture.h
-│
-├── resources
-│   └── textures
-│
-└── README.md
-```
-
----
 
 ## How to Build and Run
 
